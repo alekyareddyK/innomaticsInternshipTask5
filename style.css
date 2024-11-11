@@ -1,0 +1,21 @@
+#top-nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  @media (max-width: 1160px) {
+    #top-nav{
+        flex-direction: column;
+        gap: 10px;
+      }
+  }
+
+  @media (max-width: 450px){
+    #top-nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
